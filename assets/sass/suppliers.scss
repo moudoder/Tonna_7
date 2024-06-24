@@ -1,0 +1,133 @@
+.suppliers{
+	padding-top: 150px;
+}
+.suppliers{
+	.content{
+		max-width: 649px;
+		margin-top: -15px;
+	}
+	.title-block{
+		text-align: left;
+	}
+	.section-subtitle{
+		text-align: left;
+		margin-top: 25px;
+		margin-bottom: 60px;
+	}
+}
+.suppliers-criteria{
+	max-width: 842px;
+	width: 100%;
+}
+.suppliers-criteria__title{
+	font-size: 20px;
+	margin-bottom: 21px;
+	font-weight: 700;
+	line-height: 160%;
+}
+.suppliers__count{
+	color: #FD3657;
+	font-weight: 700;
+	line-height: 146%; 
+}
+.suppliers-block__text{
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 160%;
+}
+.suppliers-block{
+	border-radius: 18px;
+	border: 1px solid #EEEBF0;
+	padding-top: 25px;
+	background: #FBFAFB;
+	display: flex;
+	align-items: flex-start;
+	.suppliers__count{
+		position: relative;
+		top: 3px;
+	}
+}
+.suppliers-block--big{
+	max-width: 467px;
+	padding-left: 25px;
+	padding-bottom: 40px;
+	padding-right: 42px;
+	.suppliers__count{
+		margin-right: 29px;
+	}
+}
+.suppliers-blocks{
+	.wrapper{
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		flex-direction: column;
+		max-width: 345px;
+		.suppliers-block{
+			padding-left: 30px;
+			padding-bottom: 32px;
+
+		}
+		.suppliers__count{
+			margin-right: 19px;
+		}
+	}
+}
+.advantages-block{
+	border-radius: 18.937px;
+	border: 0.592px solid #EEEBF0;
+	background: #F6F6F8;
+	box-shadow: 0px 3.733px 10.451px 0px #E8E8EE;
+	max-width: 498px;
+	padding-left: 30px;
+	padding-top: 31px;
+	padding-bottom: 34px;
+}
+.advantages-row{
+	align-items: stretch;
+}
+.advantages-block__title{
+	color: #270041;
+	margin-top: 20px;
+	margin-bottom: 15px;
+	font-size: 32px;
+	font-weight: 600;
+	line-height: 146%;
+}
+.advantages-block__text{
+	opacity: 0.7;
+}
+.suppliers--logistics{
+	padding-top: 0;
+}
+.suppliers--logistics{
+	.suppliers-blocks{
+		width: 100%;
+		max-width: 842px;
+	}
+	.suppliers-block{
+		width: 100%;
+		padding-left: 25px;
+		padding-bottom: 23px;
+		padding-top: 23px;
+		margin-bottom: 30px;
+		&:last-child{
+			margin-bottom: 0;
+		}
+	}
+	.suppliers__count{
+		margin-right: 26px;
+	}
+}
+.suppliers{
+	.container{
+		padding-right: 0;
+		padding-left: 0;
+	}
+}
+.advantages{
+	.container{
+		padding-right: 0;
+		padding-left: 0;
+	}
+}
